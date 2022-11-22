@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>포트폴리오 상세페이지</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <script src="https://kit.fontawesome.com/3a7191171a.js" crossorigin="anonymous"></script>
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.9.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="../index.html">Kim Minji</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="../index.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="details_title">구현한 기능</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li>구현한 기능</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="content_header">
+          <ol>
+            <li class="select_title" style="font-size: 22px;">Front-end</li>
+            <li class="non_select_title"><a href="portfolio-details-login.html">로그인/회원가입</a></li>
+            <li class="non_select_title"><a href="portfolio-details-reservation.html">구장예약</a></li>
+            <li class="non_select_title"><a href="portfolio-details-payments.html">결제모듈</a></li>
+            <li class="non_select_title"><a href="portfolio-details-admin.html">관리자페이지</a></li>
+          </ol>
+        </div>
+        <div class="content_area">
+          <div class="content_left">
+            <div class="img_area">
+              <img src="../assets/img/portfolio/details-front-end/EZFootBall_starter2.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-width">
+            <div class="portfolio-info">
+              <h3>초심자를 위한 스타터페이지</h3>
+              <ul>
+                <li><strong>1. </strong>Main페이지 실행 전 interceptor를 태워 session이 없는 사용자에게 보여지는 가이드 화면 제공.</li>
+                <li><strong>2. </strong>svg 벡터 이미지를 사용하여 path 선을 연결해 화면이 스크롤 되어 내려갈 때마다 그려지는 효과 적용. strokeDasharray, strokeDashoffset 이용</li>
+                <li><strong>3. </strong>로그인 성공 시 session에 유저 정보를 저장. 세션이 있는 사용자는 로고를 클릭해 indexPage로 이동시 스타터 페이지 비활성화. 로그아웃 시 세션 정보가 초기화 되면서 스타터페이지 재 활성화</li>
+                <li><strong>4. </strong>로고에 scrollTop을 이용하여 스크롤되어 배경색이 바뀔 때 마다 글자색을 바꿔주는 효과 적용</li>
+                <li><strong>5. </strong>@media를 이용한 반응형 구현</li>
+                <li><strong>Project URL </strong>: <a href="#">깃링크</a></li>
+
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>코드 리뷰</h2>
+              <p>- strokeDasharray, strokeDashoffset을 활용한 스크롤 효과</p>
+              <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/starterPageCode.png">
+              <p>- 스크롤에 따라 달라지는 배경색에 가려지는 로고 글자색을 변경해주는 소스</p>
+              <p>- 어두운 배경일 경우 white, 밝은 배경일 경우 black</p>
+              <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/starterPageCode2.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="content_area1">
+          <h3>페이지 배너 슬라이드</h3>
+          <div class="content_left">
+<!--            <div class="img_area">
+              <img src="../assets/img/portfolio/details-front-end/slideBanner.png" alt="">
+            </div>-->
+            <div class="banner_container">
+              <div class="banner_content_area">
+                <div class="banner_content">
+                  <img class="banner_image" src="../assets/img/portfolio/details-front-end/ez_banner1.png" alt="">
+                  <img class="banner_image" src="../assets/img/portfolio/details-front-end/ez_banner2.png" alt="">
+                  <img class="banner_image" src="../assets/img/portfolio/details-front-end/ez_banner3.png" alt="">
+                </div>
+              </div>
+
+              <div class="pagination-area">
+                <div class="page_container">
+                  <div class="pagination_controller">
+                    <div class="index_num">
+                      <span class="current_index">1</span>
+
+                      <span class="total_count">/ 3</span>
+                    </div>
+                    <div class="control_wrapper">
+                      <button class="control_previous_button e_previous_banner">
+                        <i class="fa-solid fa-angle-left"></i>
+                      </button>
+
+                      <button type="button" class="control_play_pause_button e_play_pause_swiper">
+                        <svg class="fa-pause" width="14px" height="14px" enable-background="new 0 0 155.3 159.3" viewBox="0 0 155.3 159.3" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="m62 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c-.1 1.8-1.6 3.3-3.4 3.3z"></path><path fill="#ffffff" d="m106.6 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c0 1.8-1.5 3.3-3.4 3.3z"></path></svg>
+                        <i class="fas fa-play"></i>
+                      </button>
+
+                      <button type="button" class="control_next_button e_next_banner">
+                        <i class="fa-solid fa-angle-right">
+                        </i>
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <script>
+            let button_flag = false;
+            var time_out;
+
+            let page_num = document.querySelector(".current_index");
+
+            let pause_btn = document.querySelector(".fa-pause");
+            let play_btn = document.querySelector(".fa-play");
+
+            pause_btn.style.display = "none";
+            play_btn.style.display = "block";
+            // translate 먹일곳
+            let top_banner = document.querySelector('.banner_content_area');
+            let top_btn_right = document.querySelector(".e_next_banner");
+            let top_btn_left = document.querySelector(".e_previous_banner");
+            let slide_photo_cnt = document.querySelectorAll(".banner_image").length;
+
+            // 최상단 디브
+            let slider_area = document.querySelector(".banner_container");
+
+            var slider_width = slider_area.clientWidth; // container의 width
+            var slide_index = 0;
+
+            top_btn_right.addEventListener("click", function () {
+              clearTimeout(time_out);
+              console.log("right:"+slide_index);
+              if (slide_index > 0 && slide_index < slide_photo_cnt) {
+                top_banner.style.transform = 'translate(' + (-(884 * (slide_index - 1))) + 'px)';
+              } else {
+                top_banner.style.transform = 'translateX(0vw)';
+                slide_index = 0;
+              }
+              show_slides();
+            })
+
+            top_btn_left.addEventListener("click", function () {
+              pause_btn.style.display = "none";
+              play_btn.style.display = "block";
+
+              button_flag = false;
+              clearTimeout(time_out);
+              console.log("left:"+slide_index);
+
+              if (slide_index > 1 && slide_index <= slide_photo_cnt) {
+                top_banner.style.transform = 'translateX(' + (-914 * (slide_index - 2)) + 'px)';
+                slide_index--;
+              } else {
+                top_banner.style.transform = 'translateX(' + (-914 * (slide_photo_cnt - 1)) + 'px)';
+
+                slide_index = slide_photo_cnt;
+              }
+
+              page_num.innerHTML = slide_index;
+              console.log(slide_index);
+
+            })
+
+            // Top banner pagination bar
+            pause_btn.addEventListener("click", function () {
+              pause_btn.style.display = "none";
+              play_btn.style.display = "block";
+
+              button_flag = false;
+              clearTimeout(time_out);
+            });
+
+            play_btn.addEventListener("click", function () {
+              pause_btn.style.display = "block";
+              play_btn.style.display = "none";
+
+              button_flag = true;
+              show_slides();
+            });
+
+            show_slides();
+
+            function show_slides() {
+              slide_index++;
+
+              top_banner.style.transform = 'translate(' + (-(914 * (slide_index - 1))) + 'px';
+              console.log(slide_index);
+
+              page_num.innerHTML = slide_index;
+
+              if (slide_index === slide_photo_cnt) {
+                slide_index = 0;
+              }
+              if (button_flag == true) {
+                time_out = setTimeout(show_slides, 5000);
+              }
+            }
+          </script>
+
+          <div class="mainPage_desc">
+            <p>- setTimeout()을 이용한 배너 자동 슬라이드 및 옵션 바(일시정지, 재생, 페이지네이션) 구현</p>
+
+            <div class="portfolio-description">
+              <h2>코드 리뷰</h2>
+              <p>- 사진의 갯수를 카운트하여 정해진 길이만큼 슬라이드</p>
+              <p>- white-space: nowrap 사용해 사진을 정렬한 후 컨텐츠 영역에 벗어나는 부분 overflow처리</p>
+              <p>- transform , translate 이용하여 부드러운 슬라이드 처리</p>
+              <p>- clearTimeout(time_out)을 활용한 일시정지,재생 처리</p>
+              <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/slideCode.png">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="content_area content_area2">
+          <h3>구현 UI 및 디자인</h3>
+          <h5>- 소셜매치/팀매치/구장예약 페이지</h5>
+          <div class="page_content_area">
+            <div class="page_content">
+              <div class="img_area page_img">
+                <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/MainSocialPage.png" alt="">
+              </div>
+            </div>
+            <div class="page_content">
+              <div class="img_area page_img">
+                <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/teamPage.png" alt="">
+              </div>
+            </div>
+            <div class="page_content">
+              <div class="img_area page_img">
+                <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/rentalPage.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <h5>- 상세페이지/결제페이지</h5>
+          <div class="page_content_area2">
+            <div class="page_content">
+              <div class="img_area page_img">
+                <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/rentalDetailPage.png" alt="">
+              </div>
+            </div>
+            <div class="page_content">
+              <div class="img_area page_img">
+                <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/rentalPaymentPage.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <h5>- 마이페이지</h5>
+          <h6>마이페이지/경기신청내역/구장예약내역</h6>
+          <div class="page_content_area3">
+            <div class="page_area">
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/myPage.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/gameListPage.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/rentalListPage.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h6>문의내역/문의작성/상세문의내역/매니저지원내역</h6>
+            <div class="QnAPage_area">
+              <div class="QnA_content">
+                <div class="page_content">
+                  <div class="img_area page_img">
+                    <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/QnAPage.png" alt="">
+                  </div>
+                </div>
+                <div class="page_content">
+                  <div class="img_area page_img">
+                    <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/QnAPage2.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="QnA_content">
+                <div class="page_content">
+                  <div class="img_area page_img">
+                    <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/QnAPage3.png" alt="">
+                  </div>
+                </div>
+                <div class="page_content">
+                  <div class="img_area page_img">
+                    <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/managerSignUpPage.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>- 로그인 관련 페이지</h5>
+          <h6>로그인/회원가입/비밀번호변경</h6>
+          <div class="page_content_area4">
+            <div class="page_area">
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/loginPage.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/chanePWPage.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/signUpPage.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>- 매니저 페이지</h5>
+          <h6>득점관리/신청자관리/경기관리</h6>
+          <div class="page_content_area5">
+            <div class="page_area">
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/managerPage.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/managerPage2.png" alt="">
+                </div>
+              </div>
+              <div class="page_content">
+                <div class="img_area page_img">
+                  <img onclick="window.open(this.src)" src="../assets/img/portfolio/details-front-end/managerPage3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3>HTML/CSS/Javascript/JSP</h3>
+          <h5>사이트 대부분의 css작업</h5>
+          <h6>- jsp:include를 이용한 섹션 나누기</h6>
+          <h6>- 파비콘,로고,아이콘,header,banner,날짜nav-bar,select-bar,list 등 시그니처 컬러 지정 및 페이지 전체 css 작업</h6>
+        </div>
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
