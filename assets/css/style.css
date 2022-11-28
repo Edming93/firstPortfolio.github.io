@@ -427,7 +427,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 70%;
+  width: 77%;
 }
 
 .skills_content:first-child {
@@ -652,6 +652,10 @@ section {
   font-weight: bold;
   margin-top:30px;
   text-align: center;
+}
+
+.project_title h5 {
+  margin-bottom: 20px;
 }
 .gitLink {
   color: #424242;
