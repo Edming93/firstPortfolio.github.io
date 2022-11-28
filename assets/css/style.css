@@ -301,7 +301,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 90px 0;
   overflow: hidden;
 }
 
@@ -547,9 +547,15 @@ section {
 .img-fluid {
   max-width: 100%;
 }
+
 .col-lg-4 {
   padding-left: 105px;
 }
+
+.row .photo_area {
+  padding-left: 15px;
+}
+
 .col-width {
   width:50%;
 }
@@ -654,14 +660,12 @@ section {
   text-align: center;
 }
 
-.project_title h5 {
-  margin-bottom: 30px;
-}
 .gitLink {
   color: #424242;
 }
 .col-md-6 h5 {
   text-align: center;
+  margin-bottom: 30px;
 }
 /*--------------------------------------------------------------
 # Portfolio Details
